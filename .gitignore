@@ -1,0 +1,32 @@
+# Credits:
+# * https://github.com/github/gitignore/blob/master/WordPress.gitignore
+# * https://gist.github.com/samhotchkiss/6190462
+
+# ignore everything in the root except the README and the "wp-content" directory.
+/*
+!.gitignore
+!README.md
+!wp-content/
+
+# ignore everything in the "wp-content" directory, except:
+# "mu-plugins", "plugins", "themes" directory
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/themes/
+
+# ignore everything in the "plugins" directory, except specific plugins
+wp-content/plugins/*
+# !wp-content/plugins/my-plugin/
+
+# ignore everything in the "themes" directory, except specific themes
+wp-content/themes/*
+!wp-content/themes/my/
+
+# ignore node dependency directories
+node_modules/
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
