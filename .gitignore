@@ -2,11 +2,17 @@
 # * https://github.com/github/gitignore/blob/master/WordPress.gitignore
 # * https://gist.github.com/samhotchkiss/6190462
 
-# ignore everything in the root except the README and the "wp-content" directory.
+# ignore everything in the root except the README, "wp-config.php",
+# and the "wp-content" directory.
 /*
 !.gitignore
 !README.md
+!wp-config.php
 !wp-content/
+
+# A note on the above:
+# wp-config.php in a real site should not be committed because of it's sensitive contents
+# However, I think it can be committed if environment variables were used in it.
 
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins", "plugins", "themes" directory
