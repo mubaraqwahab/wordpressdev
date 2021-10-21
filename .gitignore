@@ -3,3 +3,5 @@ themes/*
 
 plugins/*
 !plugins/index.php
+
+node_modules/
