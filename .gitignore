@@ -1,0 +1,5 @@
+themes/*
+!themes/index.php
+
+plugins/*
+!plugins/index.php
