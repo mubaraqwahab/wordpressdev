@@ -1,5 +1,6 @@
 themes/*
 !themes/index.php
+!themes/my/
 
 plugins/*
 !plugins/index.php
